@@ -79,7 +79,7 @@ class SQLQueryGeneratorDialog(QDialog):
             return
         
         try:
-            api_key = "AIzaSyBad-nogzjP-oOrv3hYErXCQfGxx-hKXzA"
+            api_key = api_key
             genai.configure(api_key=api_key)
             
             model = genai.GenerativeModel("gemini-2.5-flash")
